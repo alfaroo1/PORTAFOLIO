@@ -8,7 +8,7 @@ body{
 .principal{
     display: flex;
     justify-content: center; 
-    height: 100vh;
+    height: 100%;
 }
 
 /*TARGET STYLE*/
@@ -34,7 +34,6 @@ body{
     background-color: #181818;
     min-width: 400px;
     max-width: 400px;
-    
 }
 .nav{
     display: flex;
@@ -62,23 +61,26 @@ body{
 .main{
     background-color: #101010;
 }
-/*SECTION FOR MY*/
-.section_for-my{
+/*SECTION START AND FOR MY*/
+.section_start, .section_for-my{
     margin-left: 60px;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 25%;
 }
-.section_for-my h1,h2{
+.section_start h1,h2{
     color: #ECEDEE;
 }
-.section_for-my p{
+.section_for-my h1{
+    font-size: 3rem;
+}
+.section_start p, .section_for-my p, .section_for-my h1{
     color: #ECEDEE;
     margin-bottom: 25px;
 }
-.section_for-my span{
+.section_start span, .section_for-my span{
     color: #CAE259;
 }
-.section_for-my button{
+.section_start button{
     background-color: #323232;
     color: #ECEDEE;
     border: none;
@@ -88,8 +90,55 @@ body{
     padding-top: 3px;
     padding-bottom: 3px;
 }
-.section_for-my i{
+.section_start i{
     font-size: 1.25rem;
     color: #CAE259;
     margin-left: 5px;
+}
+/*SECTION FOR MY*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container__info{
+    width: 400px;
+}
+.container__info p{
+    margin-bottom:-10px ;
+}
+.container__info button{
+    background-color: #323232;
+    color: #ECEDEE;
+    border: none;
+    border-radius: 1rem;
+    width: 220px;
+    font-size: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.container__info i{
+    color: #CAE259;
+}
+.container__experiencia{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.cont_exp{
+    background-color:#222222 ;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+}
+.cont_exp p, .cont_exp span{
+    font-variant: small-caps;
+    font-size: 1.8rem;
+    margin-bottom: -5px;
+}
+.cont_exp p{
+    color: #ECEDEE;
+}
+.cont_exp span{
+    color: #CAE259;
 }
