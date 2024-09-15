@@ -1,16 +1,20 @@
 body{
     font-family: Poppins;
     margin: 0 auto;
+    height: 100%;
+    width: 100%;
 }
 /*CONT PRINCIPAL STYLE*/
 .principal{
     display: flex;
+    justify-content: center; 
+    height: 100vh;
 }
 
 /*TARGET STYLE*/
 .target{
-    text-align: center;
-    padding-top: 185px;
+    text-align: center; 
+    margin-top: 50%;
 }
 .target__img{
     width: 70px;
@@ -30,12 +34,13 @@ body{
     background-color: #181818;
     min-width: 400px;
     max-width: 400px;
+    
 }
 .nav{
     display: flex;
     justify-content: center;
-    padding-bottom: 191px;
     margin-left: -30px;
+    margin-bottom: 50%;
 }
 .nav_list{
     list-style: none;
@@ -56,4 +61,35 @@ body{
 /*MAIN STYLE*/
 .main{
     background-color: #101010;
+}
+/*SECTION FOR MY*/
+.section_for-my{
+    margin-left: 60px;
+    align-items: center;
+    margin-top: 20%;
+}
+.section_for-my h1,h2{
+    color: #ECEDEE;
+}
+.section_for-my p{
+    color: #ECEDEE;
+    margin-bottom: 25px;
+}
+.section_for-my span{
+    color: #CAE259;
+}
+.section_for-my button{
+    background-color: #323232;
+    color: #ECEDEE;
+    border: none;
+    border-radius: 1rem;
+    width: 120px;
+    font-size: 0.90rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.section_for-my i{
+    font-size: 1.25rem;
+    color: #CAE259;
+    margin-left: 5px;
 }
