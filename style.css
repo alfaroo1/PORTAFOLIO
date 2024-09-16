@@ -61,8 +61,8 @@ body{
 .main{
     background-color: #101010;
 }
-/*SECTION START AND FOR MY*/
-.section_start, .section_for-my{
+/*SECTION STYLES*/
+.section_start, .section_for-my, .section_formacion{
     margin-left: 60px;
     align-items: center;
     margin-top: 25%;
@@ -77,7 +77,7 @@ body{
     color: #ECEDEE;
     margin-bottom: 25px;
 }
-.section_start span, .section_for-my span{
+.section_start span, .section_for-my span, .section_formacion span{
     color: #CAE259;
 }
 .section_start button{
@@ -96,6 +96,14 @@ body{
     margin-left: 5px;
 }
 /*SECTION FOR MY*/
+.section_formacion h1{
+    color:#ECEDEE ;
+    font-size: 3.5rem;
+}
+.section_formacion span{
+    color: #CAE259;
+    font-size: 3.5rem;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -141,4 +149,42 @@ body{
 }
 .cont_exp span{
     color: #CAE259;
+}
+/*SECTION FORMACION*/
+
+.cont_courses{
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cont_course{
+    display: flex;
+    gap: 10px;
+    width: 600px;
+}
+.cont_logo i{
+    background-color: #CAE259;
+    padding: 15px;
+    border-radius: 50%;
+}
+.title{
+    color: #CAE259;
+    font-variant: small-caps;
+    font-size: 3rem;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.year{
+    background-color: #323232;
+    color: #ECEDEE;
+    width: 150px;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-left: 10%;
+}
+.text{
+    color: #ECEDEE;
+
 }
