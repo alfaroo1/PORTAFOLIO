@@ -62,10 +62,11 @@ body{
     background-color: #101010;
 }
 /*SECTION STYLES*/
-.section_start, .section_for-my, .section_formacion, .section_portafolio{
+.section_start, .section_for-my, .section_formacion, .section_portafolio, .section_contact{
     margin-left: 60px;
     align-items: center;
     margin-top: 25%;
+    margin-bottom: 10%;
 }
 .section_start h1,h2{
     color: #ECEDEE;
@@ -203,4 +204,55 @@ body{
 }
 .image img{
     width: 550px;
+    height: 305px;
+}
+/*SECTION CONTACT*/
+.section_contact h1{
+    color: #CAE259;
+    font-size: 3.5rem;
+}
+.cont{
+    display:flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.info{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.info i{
+    color: #CAE259;
+}
+.info p{
+    color: #ECEDEE;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.cont_form{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.cont_form input{
+    width: 700px;
+    background-color:#323232;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.cont button{
+    margin-top: 20px;
+    background-color:#323232;
+    border: none;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 550px;
+    width: 150px;
+    font-size: 1rem;
+    color: #ECEDEE;
+}
+.cont i{
+    color: #CAE259;
 }
